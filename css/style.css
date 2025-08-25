@@ -39,6 +39,54 @@ a:focus {
   box-shadow: none;
 }
 
+.btn-theme {
+  border-radius: 15px;
+  background: rgb(137, 118, 253);
+  color: #fff;
+  padding: 18px 32px;
+  font-weight: 700;
+  line-height: 25px;
+}
+header {
+  backdrop-filter: blur(40px);
+  background: linear-gradient(to bottom right, rgba(137, 118, 253, 0.2), rgba(255, 255, 255, 0.9));
+  height: 100vh;
+  position: relative;
+}
+header .navbar {
+  padding-top: 40px;
+}
+
+.line-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.hero {
+  position: relative;
+}
+.hero .hero-content {
+  max-width: 910px;
+  float: right;
+  position: relative;
+  display: flex;
+}
+.hero .hero-content .hero-text h1 {
+  margin-bottom: 20px;
+}
+.hero .hero-content .hero-text h1 span {
+  color: #8976FD;
+}
+.hero .hero-content .hero-text p {
+  margin-bottom: 40px;
+  max-width: 465px;
+}
+.hero .hero-content .hero-left img {
+  position: relative;
+  top: -90px;
+}
+
 body {
   font-family: "Nunito Sans", sans-serif;
   font-weight: 400;
@@ -76,6 +124,14 @@ h4 {
 h5 {
   font-size: 24px;
   line-height: 160%;
+}
+
+p {
+  margin-bottom: 0px;
+  font-size: 20px;
+  line-height: 27px;
+  opacity: 0.8;
+  color: #1C0E0D;
 }
 
 section {
