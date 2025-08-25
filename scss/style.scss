@@ -9,9 +9,6 @@
 @use "./components/header";
 @use "./components/footer";
 
-
-
-
 body {
   font-family: "Nunito Sans", sans-serif;
   font-weight: 400;
@@ -43,6 +40,13 @@ h4 {
 h5 {
   font-size: 24px;
   line-height: 160%;
+}
+p {
+  margin-bottom: 0px;
+  font-size: 20px;
+  line-height: 27px;
+  opacity: 0.8;
+  color: #1C0E0D;
 }
 
 

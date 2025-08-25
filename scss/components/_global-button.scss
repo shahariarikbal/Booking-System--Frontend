@@ -1,8 +1,11 @@
 .btn-theme {
-  &.btn-theme-outline {
-    
-  }
-  &:hover {
-    
-  }
+  border-radius: 15px;
+  background: rgba(137, 118, 253, 1);
+  color: #fff;
+  padding: 18px 32px;
+  font-weight: 700;
+  line-height: 25px;
+  &.btn-theme-outline {}
+
+  &:hover {}
 }
