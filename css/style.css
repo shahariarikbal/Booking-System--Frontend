@@ -87,6 +87,56 @@ header .navbar {
   top: -90px;
 }
 
+.counter {
+  background: linear-gradient(0deg, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0) 100%);
+  backdrop-filter: blur(20px);
+}
+.counter ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.counter ul li {
+  display: flex;
+  align-items: center;
+  gap: 36px;
+}
+.counter ul li .icon-box {
+  width: 128px;
+  height: 128px;
+  border-radius: 40px;
+  box-shadow: 14px 20px 48px 0px rgba(25, 15, 44, 0.02);
+  background: rgba(192, 110, 243, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.counter ul li .icon-box.icon-box-yellow {
+  background: rgba(253, 186, 9, 0.2);
+}
+.counter ul li .icon-box.icon-box-green {
+  background: rgba(109, 237, 195, 0.2);
+}
+.counter ul li .content {
+  display: flex;
+  flex-direction: column;
+}
+.counter ul li .content span {
+  color: rgb(94, 88, 122);
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25px;
+}
+.counter ul li .content span.counter-number {
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 72px;
+  text-transform: capitalize;
+  color: #332C5C;
+  font-family: "Poppins", sans-serif;
+}
+
 body {
   font-family: "Nunito Sans", sans-serif;
   font-weight: 400;
