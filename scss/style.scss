@@ -8,6 +8,7 @@
 @use "./components/title";
 @use "./components/header";
 @use "./components/counter";
+@use "./components/goal";
 @use "./components/footer";
 
 body {
@@ -45,7 +46,6 @@ h5 {
 p {
   margin-bottom: 0px;
   font-size: 20px;
-  line-height: 27px;
   opacity: 0.8;
   color: #1C0E0D;
 }
