@@ -48,8 +48,10 @@ a:focus {
   line-height: 25px;
 }
 header {
-  backdrop-filter: blur(40px);
-  background: linear-gradient(to bottom right, rgba(137, 118, 253, 0.2), rgba(255, 255, 255, 0.9));
+  background-image: url("/img/bg-header.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
   height: 100vh;
   position: relative;
 }
@@ -137,6 +139,73 @@ header .navbar {
   font-family: "Poppins", sans-serif;
 }
 
+.goal {
+  background-image: url("/img/bg-goal.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+.goal .goal-contents {
+  max-width: 487px;
+  float: right;
+  margin-right: 70px;
+}
+.goal .goal-contents h2 {
+  font-size: 44px;
+  line-height: 140%;
+  font-weight: 600;
+  text-transform: capitalize;
+  margin-bottom: 1rem;
+  margin-top: 0;
+}
+.goal .goal-contents p {
+  color: #494369;
+  opacity: 1;
+}
+.goal .goal-contents ul {
+  margin-top: 40px;
+}
+.goal .goal-contents ul li {
+  border-radius: 24px;
+  background: #FFF;
+  box-shadow: 0 20px 80px 0 rgba(0, 0, 0, 0.03);
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  padding: 20px;
+  margin-bottom: 24px;
+}
+.goal .goal-contents ul li .icon-box {
+  width: 90px;
+  height: 90px;
+  border-radius: 16px;
+  background: #FFF;
+  box-shadow: 0 25px 40px 0 rgba(0, 0, 0, 0.05);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.goal .goal-contents ul li .content h3 {
+  margin-top: 0;
+  margin-bottom: 2px;
+  font-size: 24px;
+  line-height: 160%;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+.goal .goal-contents ul li .content p {
+  font-size: 18px;
+  color: #5E587A;
+  opacity: 1;
+}
+.goal .dots-image {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: 1;
+}
+
 body {
   font-family: "Nunito Sans", sans-serif;
   font-weight: 400;
@@ -179,7 +248,6 @@ h5 {
 p {
   margin-bottom: 0px;
   font-size: 20px;
-  line-height: 27px;
   opacity: 0.8;
   color: #1C0E0D;
 }

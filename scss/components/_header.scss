@@ -1,8 +1,10 @@
 @use '../colors' as *;
 
 header {
-    backdrop-filter: blur(40px);
-    background: linear-gradient(to bottom right, rgba(137, 118, 253, 0.2), rgba(255, 255, 255, 0.9));
+    background-image: url('/img/bg-header.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     height: 100vh;
     position: relative;
     .navbar {
