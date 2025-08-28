@@ -1,0 +1,33 @@
+.features {
+    background-image: url('/img/bg-features.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+
+    .feature-box {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 100px;
+        .content {
+            max-width: 485px;
+
+            h3 {
+                color: #332C5C;
+                font-weight: 600;
+                margin: 0 0 16px 0;
+            }
+
+            p {
+                color: #5E587A;
+                opacity: 1;
+                margin-bottom: 48px;
+            }
+
+        }
+        .belune {
+
+        }
+    }
+}

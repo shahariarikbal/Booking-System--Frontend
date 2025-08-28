@@ -1,0 +1,28 @@
+.connections {
+    background-image: url('/img/bg-connections.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+
+    .connections-box {
+        position: relative;
+        max-width: 496px;
+        h3 {
+            color: #332C5C;
+            font-weight: 600;
+            margin: 0 0 16px 0;
+        }
+
+        p {
+            color: #5E587A;
+            opacity: 1;
+            margin-bottom: 48px;
+        }
+        .dots-img {
+            position: absolute;
+            top: 0;
+            right: 0;
+        }
+    }
+}
