@@ -206,6 +206,67 @@ header .navbar {
   z-index: 1;
 }
 
+.features {
+  background-image: url("/img/bg-features.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+.features .feature-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 100px;
+}
+.features .feature-box .content {
+  max-width: 485px;
+}
+.features .feature-box .content h3 {
+  color: #332C5C;
+  font-weight: 600;
+  margin: 0 0 16px 0;
+}
+.features .feature-box .content p {
+  color: #5E587A;
+  opacity: 1;
+  margin-bottom: 48px;
+}
+.connections {
+  background-image: url("/img/bg-connections.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+.connections .connections-box {
+  position: relative;
+  max-width: 496px;
+}
+.connections .connections-box h3 {
+  color: #332C5C;
+  font-weight: 600;
+  margin: 0 0 16px 0;
+}
+.connections .connections-box p {
+  color: #5E587A;
+  opacity: 1;
+  margin-bottom: 48px;
+}
+.connections .connections-box .dots-img {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.support-language {
+  background-image: url("/img/bg-support.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
 body {
   font-family: "Nunito Sans", sans-serif;
   font-weight: 400;
