@@ -259,14 +259,49 @@ header .navbar {
   right: 0;
 }
 
-.support-language {
-  background-image: url("/img/bg-support.png");
+.review {
+  background-image: url("/img/bg-review.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   position: relative;
 }
-
+.review .review-wrapper {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
+.review .review-wrapper .review-content {
+  max-width: 485px;
+}
+.review .review-wrapper .review-content h3 {
+  margin: 0 0 40px 0;
+  font-weight: 600;
+  font-size: 44px;
+}
+.review .review-wrapper .review-content p {
+  font-size: 24px;
+  line-height: 190%;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+  color: #404040;
+  opacity: 0.8;
+  margin-bottom: 60px;
+}
+.review .review-wrapper .review-content ul li {
+  color: #332c5c;
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
+  line-height: 160%;
+  font-weight: 600;
+}
+.review .review-wrapper .review-content ul li span {
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 18px;
+  line-height: 180%;
+  color: #5e587a;
+  font-weight: 400;
+}
 body {
   font-family: "Nunito Sans", sans-serif;
   font-weight: 400;
