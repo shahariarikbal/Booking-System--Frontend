@@ -266,6 +266,20 @@ header .navbar {
   background-position: center;
   position: relative;
 }
+.review .carousel .carousel-indicators {
+  bottom: -50px;
+  gap: 1rem;
+}
+.review .carousel .carousel-indicators button {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: transparent;
+  border: 1px solid #8976FD;
+}
+.review .carousel .carousel-indicators button.active {
+  background-color: #8976FD;
+}
 .review .review-wrapper {
   display: flex;
   flex-direction: row-reverse;

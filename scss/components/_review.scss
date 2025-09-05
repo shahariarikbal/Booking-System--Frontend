@@ -4,6 +4,22 @@
     background-size: cover;
     background-position: center;
     position: relative;
+    .carousel {
+        .carousel-indicators {
+            bottom: -50px;
+            gap: 1rem;
+            button {
+                width: 20px;
+                height: 20px;
+                border-radius: 50%;
+                background-color: transparent;
+                border: 1px solid #8976FD;
+                &.active {
+                    background-color: #8976FD;
+                }
+            }
+        }
+    }
 
     .review-wrapper {
         display: flex;
