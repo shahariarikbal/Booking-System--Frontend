@@ -235,12 +235,10 @@
       <div class="container-fluid px-0">
         <div id="myCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="2000">
           <div class="carousel-indicators">
-            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active"
-              aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1"
-              aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2"
-              aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true"
+              aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
           </div>
           <div class="carousel-inner">
             <div class="carousel-item active">
@@ -310,11 +308,97 @@
               </div>
             </div>
           </div>
-          
+
         </div>
       </div>
     </section>
     <!-- End Review Section -->
+
+    <!-- Start Blog Section -->
+    <section class="blog">
+      <div class="container custom-container">
+        <div class="row justify-content-center">
+          <div class="col-xl-7 text-center">
+            <div class="section-title">
+              <h3 class="text-capitalize mt-0">Read our blog</h3>
+              <p>Frontegg dramatically sped our go-to-market by cutting our up-front development time</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12">
+              <div class="blog-pagination">
+                <h3>Most popular posts</h3>
+                <nav aria-label="...">
+                  <ul class="pagination">
+                    <li class="page-item disabled">
+                      <a class="page-link">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M15.5 5L8.5 12L15.5 19" stroke="#8976FD" stroke-width="1.5" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                        </svg>
+                      </a>
+                    </li>
+                    <li class="page-item"><a class="page-link" href="#">1</a></li>
+                    <li class="page-item active">
+                      <a class="page-link" href="#" aria-current="page">2</a>
+                    </li>
+                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                    <li class="page-item"><a class="page-link" href="#">.</a></li>
+                    <li class="page-item"><a class="page-link" href="#">.</a></li>
+                    <li class="page-item right-arrow">
+                      <a class="page-link" href="#">
+
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M8.5 5L15.5 12L8.5 19" stroke="white" stroke-width="1.5" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                        </svg>
+
+                      </a>
+                    </li>
+                  </ul>
+                </nav>
+              </div>
+              <div class="blog-cards">
+                <div class="card">
+                  <img src="./img/blog-1.png" class="card-img-top" alt="Blog-1">
+                  <div class="card-body">
+                    <p>
+                      <span>Random</span>
+                      <span>24 nov, 2021</span>
+                    </p>
+                    <h3 class="card-title">Weekly roundup SaaS global SaaS </h3>
+                    <a href="#" class="btn btn-primary">read more</a>
+                  </div>
+                </div>
+                <div class="card">
+                  <img src="./img/blog-2.png" class="card-img-top" alt="Blog-2">
+                  <div class="card-body">
+                    <p>
+                      <span>Random</span>
+                      <span>24 nov, 2021</span>
+                    </p>
+                    <h3 class="card-title">Weekly roundup SaaS global SaaS </h3>
+                    <a href="#" class="btn btn-primary">read more</a>
+                  </div>
+                </div>
+                <div class="card">
+                  <img src="./img/blog-3.png" class="card-img-top" alt="Blog-3">
+                  <div class="card-body">
+                    <p>
+                      <span>Random</span>
+                      <span>24 nov, 2021</span>
+                    </p>
+                    <h3 class="card-title">Weekly roundup SaaS global SaaS </h3>
+                    <a href="#" class="btn btn-primary">read more</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Blog Section -->
   </main>
   <!-- End Main Section -->
 
@@ -332,11 +416,11 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
     crossorigin="anonymous"></script>
-    <script>
-  document.addEventListener('DOMContentLoaded', function () {
-    const carousel = new bootstrap.Carousel(document.getElementById('myCarousel'));
-  });
-</script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      const carousel = new bootstrap.Carousel(document.getElementById('myCarousel'));
+    });
+  </script>
 </body>
 
 </html>
