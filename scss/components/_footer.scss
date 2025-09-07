@@ -76,4 +76,113 @@ footer {
             }
         }
     }
+
+    .footer-content {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 156px;
+        margin: 0 auto;
+        max-width: 1140px;
+        position: relative;
+        top: -250px;
+
+        .social-contents {
+            max-width: 1140px;
+            margin: 0 auto;
+
+            .footer-logo {
+                margin-bottom: 38px;
+            }
+
+            p {
+                max-width: 336px;
+                font-size: 20px;
+                line-height: 180%;
+                color: #494369;
+            }
+
+            ul {
+                display: flex;
+                align-items: center;
+                gap: 30px;
+                margin-top: 41px;
+
+                li {
+                    a {
+                        background-color: rgba(136, 118, 253, 0.2);
+                        display: inline-block;
+                        width: 40px;
+                        height: 40px;
+                        border-radius: 50%;
+                        text-align: center;
+                        line-height: 40px;
+                        transition: all 0.3s ease;
+
+                        &:hover {
+                            background-color: #8976fd;
+                        }
+                    }
+                }
+            }
+        }
+
+        .all-links {
+            display: flex;
+            justify-content: space-between;
+            gap: 90px;
+
+            h3 {
+                font-size: 24px;
+                line-height: 160%;
+                color: #332c5c;
+                font-weight: 600;
+                margin-bottom: 40px;
+            }
+
+            ul {
+                list-style: none;
+                padding: 0;
+
+                li {
+                    margin-bottom: 8px;
+
+                    a {
+                        text-decoration: none;
+                        font-size: 20px;
+                        line-height: 180%;
+                        color: #494369;
+                        transition: all 0.3s ease;
+
+                        &:hover {
+                            color: #8976fd;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .copyright {
+        text-align: center;
+       position: relative;
+       top:-80px;
+        padding-bottom: 0px;
+
+        p {
+            font-size: 18px;
+            line-height: 180%;
+            color: #5e587a;
+            
+
+            a {
+                color: #8976fd;
+                text-decoration: none;
+
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
 }
